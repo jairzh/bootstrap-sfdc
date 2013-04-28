@@ -8,31 +8,22 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
-#force {
-  /* Allow for input prepend/append in search forms */
-
-  /* White icons with optional class, or on hover/focus/active states of certain elements */
-
-  /* move down carets for tabs */
-
-}
-
-#force .clearfix {
+.clearfix {
   *zoom: 1;
 }
 
-#force .clearfix:before,
-#force .clearfix:after {
+.clearfix:before,
+.clearfix:after {
   display: table;
   line-height: 0;
   content: "";
 }
 
-#force .clearfix:after {
+.clearfix:after {
   clear: both;
 }
 
-#force .hide-text {
+.hide-text {
   font: 0/0 a;
   color: transparent;
   text-shadow: none;
@@ -40,13 +31,22 @@
   border: 0;
 }
 
-#force .input-block-level {
+.input-block-level {
   display: block;
   width: 100%;
   min-height: 30px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+#force {
+  /* Allow for input prepend/append in search forms */
+
+  /* White icons with optional class, or on hover/focus/active states of certain elements */
+
+  /* move down carets for tabs */
+
 }
 
 #force article,
@@ -5170,7 +5170,7 @@
   background-color: #fff;
 }
 
-#force .modal-backdrop {
+.modal-backdrop {
   position: fixed;
   top: 0;
   right: 0;
@@ -5180,17 +5180,17 @@
   background-color: #000000;
 }
 
-#force .modal-backdrop.fade {
+.modal-backdrop.fade {
   opacity: 0;
 }
 
-#force .modal-backdrop,
-#force .modal-backdrop.fade.in {
+.modal-backdrop,
+.modal-backdrop.fade.in {
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
 
-#force .modal {
+.modal {
   position: fixed;
   top: 10%;
   left: 50%;
@@ -5213,7 +5213,7 @@
           background-clip: padding-box;
 }
 
-#force .modal.fade {
+.modal.fade {
   top: -25%;
   -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
      -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
@@ -5221,36 +5221,36 @@
           transition: opacity 0.3s linear, top 0.3s ease-out;
 }
 
-#force .modal.fade.in {
+.modal.fade.in {
   top: 10%;
 }
 
-#force .modal-header {
+.modal-header {
   padding: 9px 15px;
   border-bottom: 1px solid #eee;
 }
 
-#force .modal-header .close {
+.modal-header .close {
   margin-top: 2px;
 }
 
-#force .modal-header h3 {
+.modal-header h3 {
   margin: 0;
   line-height: 30px;
 }
 
-#force .modal-body {
+.modal-body {
   position: relative;
   max-height: 400px;
   padding: 15px;
   overflow-y: auto;
 }
 
-#force .modal-form {
+.modal-form {
   margin-bottom: 0;
 }
 
-#force .modal-footer {
+.modal-footer {
   padding: 14px 15px 15px;
   margin-bottom: 0;
   text-align: right;
@@ -5265,31 +5265,31 @@
           box-shadow: inset 0 1px 0 #ffffff;
 }
 
-#force .modal-footer:before,
-#force .modal-footer:after {
+.modal-footer:before,
+.modal-footer:after {
   display: table;
   line-height: 0;
   content: "";
 }
 
-#force .modal-footer:after {
+.modal-footer:after {
   clear: both;
 }
 
-#force .modal-footer .btn + .btn {
+.modal-footer .btn + .btn {
   margin-bottom: 0;
   margin-left: 5px;
 }
 
-#force .modal-footer .btn-group .btn + .btn {
+.modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
 
-#force .modal-footer .btn-block + .btn-block {
+.modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
 
-#force .tooltip {
+.tooltip {
   position: absolute;
   z-index: 1030;
   display: block;
@@ -5300,32 +5300,32 @@
   visibility: visible;
 }
 
-#force .tooltip.in {
+.tooltip.in {
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
 
-#force .tooltip.top {
+.tooltip.top {
   padding: 5px 0;
   margin-top: -3px;
 }
 
-#force .tooltip.right {
+.tooltip.right {
   padding: 0 5px;
   margin-left: 3px;
 }
 
-#force .tooltip.bottom {
+.tooltip.bottom {
   padding: 5px 0;
   margin-top: 3px;
 }
 
-#force .tooltip.left {
+.tooltip.left {
   padding: 0 5px;
   margin-left: -3px;
 }
 
-#force .tooltip-inner {
+.tooltip-inner {
   max-width: 200px;
   padding: 8px;
   color: #ffffff;
@@ -5337,7 +5337,7 @@
           border-radius: 4px;
 }
 
-#force .tooltip-arrow {
+.tooltip-arrow {
   position: absolute;
   width: 0;
   height: 0;
@@ -5345,7 +5345,7 @@
   border-style: solid;
 }
 
-#force .tooltip.top .tooltip-arrow {
+.tooltip.top .tooltip-arrow {
   bottom: 0;
   left: 50%;
   margin-left: -5px;
@@ -5353,7 +5353,7 @@
   border-width: 5px 5px 0;
 }
 
-#force .tooltip.right .tooltip-arrow {
+.tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
@@ -5361,7 +5361,7 @@
   border-width: 5px 5px 5px 0;
 }
 
-#force .tooltip.left .tooltip-arrow {
+.tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
   margin-top: -5px;
@@ -5369,7 +5369,7 @@
   border-width: 5px 0 5px 5px;
 }
 
-#force .tooltip.bottom .tooltip-arrow {
+.tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
@@ -5377,7 +5377,7 @@
   border-width: 0 5px 5px;
 }
 
-#force .popover {
+.popover {
   position: absolute;
   top: 0;
   left: 0;
@@ -5401,23 +5401,23 @@
           background-clip: padding-box;
 }
 
-#force .popover.top {
+.popover.top {
   margin-top: -10px;
 }
 
-#force .popover.right {
+.popover.right {
   margin-left: 10px;
 }
 
-#force .popover.bottom {
+.popover.bottom {
   margin-top: 10px;
 }
 
-#force .popover.left {
+.popover.left {
   margin-left: -10px;
 }
 
-#force .popover-title {
+.popover-title {
   padding: 8px 14px;
   margin: 0;
   font-size: 14px;
@@ -5430,16 +5430,16 @@
           border-radius: 5px 5px 0 0;
 }
 
-#force .popover-title:empty {
+.popover-title:empty {
   display: none;
 }
 
-#force .popover-content {
+.popover-content {
   padding: 9px 14px;
 }
 
-#force .popover .arrow,
-#force .popover .arrow:after {
+.popover .arrow,
+.popover .arrow:after {
   position: absolute;
   display: block;
   width: 0;
@@ -5448,16 +5448,16 @@
   border-style: solid;
 }
 
-#force .popover .arrow {
+.popover .arrow {
   border-width: 11px;
 }
 
-#force .popover .arrow:after {
+.popover .arrow:after {
   border-width: 10px;
   content: "";
 }
 
-#force .popover.top .arrow {
+.popover.top .arrow {
   bottom: -11px;
   left: 50%;
   margin-left: -11px;
@@ -5466,14 +5466,14 @@
   border-bottom-width: 0;
 }
 
-#force .popover.top .arrow:after {
+.popover.top .arrow:after {
   bottom: 1px;
   margin-left: -10px;
   border-top-color: #ffffff;
   border-bottom-width: 0;
 }
 
-#force .popover.right .arrow {
+.popover.right .arrow {
   top: 50%;
   left: -11px;
   margin-top: -11px;
@@ -5482,14 +5482,14 @@
   border-left-width: 0;
 }
 
-#force .popover.right .arrow:after {
+.popover.right .arrow:after {
   bottom: -10px;
   left: 1px;
   border-right-color: #ffffff;
   border-left-width: 0;
 }
 
-#force .popover.bottom .arrow {
+.popover.bottom .arrow {
   top: -11px;
   left: 50%;
   margin-left: -11px;
@@ -5498,14 +5498,14 @@
   border-top-width: 0;
 }
 
-#force .popover.bottom .arrow:after {
+.popover.bottom .arrow:after {
   top: 1px;
   margin-left: -10px;
   border-bottom-color: #ffffff;
   border-top-width: 0;
 }
 
-#force .popover.left .arrow {
+.popover.left .arrow {
   top: 50%;
   right: -11px;
   margin-top: -11px;
@@ -5514,7 +5514,7 @@
   border-right-width: 0;
 }
 
-#force .popover.left .arrow:after {
+.popover.left .arrow:after {
   right: 1px;
   bottom: -10px;
   border-left-color: #ffffff;
